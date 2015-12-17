@@ -235,6 +235,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara_retcn/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/motorola/victara_retcn/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/motorola/victara_retcn/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/motorola/victara_retcn/proprietary/bin/ebtables:system/bin/ebtables \
+    vendor/motorola/victara_retcn/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/victara_retcn/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/victara_retcn/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/victara_retcn/proprietary/vendor/lib/libmmrtpencoder.so:system/vendor/lib/libmmrtpencoder.so \
@@ -328,6 +330,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara_retcn/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/victara_retcn/proprietary/bin/stm401:system/bin/stm401 \
     vendor/motorola/victara_retcn/proprietary/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    vendor/motorola/victara_retcn/proprietary/etc/ethertypes:system/etc/ethertypes \
     vendor/motorola/victara_retcn/proprietary/etc/firmware/cy8c20247_24lkxi.hex:system/etc/firmware/cy8c20247_24lkxi.hex \
     vendor/motorola/victara_retcn/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/victara_retcn/proprietary/etc/firmware/sensorhubfw_p0.bin:system/etc/firmware/sensorhubfw_p0.bin \
